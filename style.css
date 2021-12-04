@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* BACKGROUND CODING START HERE */
+html {
+    height:100%;
+  }
+  
+  body {
+    margin:0;
+
+  }
+  
+  .bg {
+    animation:slide 3s ease-in-out infinite alternate;
+    background-image: linear-gradient(-60deg, #6c3 50%, #09f 50%);
+    bottom:0;
+    left:-50%;
+    opacity:.5;
+    position:fixed;
+    right:-50%;
+    top:0;
+    z-index:-1;
+  }
+  
+  .bg2 {
+    animation-direction:alternate-reverse;
+    animation-duration:4s;
+  }
+  
+  .bg3 {
+    animation-duration:5s;
+  }
+  
+  .content {
+    background-color:rgba(255,255,255,.8);
+    border-radius:.25em;
+    box-shadow:0 0 .25em rgba(0,0,0,.25);
+    box-sizing:border-box;
+    left:50%;
+    padding:10vmin;
+    position:fixed;
+    text-align:center;
+    top:50%;
+    transform:translate(-50%, -50%);
+  }
+  
+  h1 {
+    font-family:monospace;
+  }
+  
+  @keyframes slide {
+    0% {
+      transform:translateX(-25%);
+    }
+    100% {
+      transform:translateX(25%);
+    }
+  }
+
+
+  /* BACKGROUND CODING END HERE */
+
+.top{
+    font-size: 25px;
+}
+div.from
+{
+    display: block;
+    text-align: center;
+   
+   margin: 15px;
+
+}
+form
+{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    min-width: 35%;
+    background-color: rgba(255, 0, 0, 0.4);
+    border: 2px solid white;
+    border-radius: 5px;
+
+}
+/* 
+form h2{
+  text-align: center;
+    color: rgb(249, 251, 253);
+    border-bottom: 3px solid red;
+}
+form label{
+  font-size: 15px;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 15px;
+  padding: 15px;
+  
+}
+form p{
+  font-size: 15px;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+ 
+} */
+
+
+
+
+
+body{  
+  font-family: Calibri, Helvetica, sans-serif;  
+  background-color: pink;  
+}  
+.container {  
+    padding: 50px;  
+  background-color: rgba(255, 0, 0, 0.4); 
+}  
+  
+input[type=text], input[type=password], textarea {  
+  width: 100%;  
+  padding: 15px;  
+  margin: 5px 0 22px 0;  
+  display: inline-block;  
+  border: none;  
+  background: #f1f1f1;  
+}  
+input[type=text]:focus, input[type=password]:focus {  
+  background-color: lightskyblue;  
+  outline: none;  
+}  
+ div {  
+            padding: 10px 0;  
+         }  
+hr {  
+  border: 1px solid #f1f1f1;  
+  margin-bottom: 25px;  
+}  
+.registerbtn {  
+  background-color: skyblue;  
+  color: black;  
+  padding: 16px 20px;  
+  margin: 8px 0;  
+  border: none;  
+  cursor: pointer;  
+  width: 50%;  
+  opacity: 0.9;  
+  font-weight: 600;
+}  
+.btn{
+  display: flex;
+ justify-content: center;
+}
+.registerbtn:hover {  
+  box-shadow: 0px 5px 15px skyblue;
+  opacity: 1;  
+}  
+
+  
