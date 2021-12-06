@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display</title>
+
+
+
+    <style>
+
+
+.container{
+		width: 90%;
+		padding: 20px;
+		margin: 10px auto;
+		/* background: #ddd; */
+        background-color: rgba(255, 255, 255, 0.5);
+        display: flex;
+		flex-direction: row;
+		justify-content: center;
+	}
+
+	.box{
+		width: 250px;
+		height: 60px;
+        text-align: center;
+		background: rgb(76, 165, 201);
+    margin: 0px 10px;
+    transition: 0.5s;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+	}
+	.box:hover{
+		transform: scale(1.3);
+		background: #5fb9f5;
+		z-index: 2;
+		box-shadow: 2px 2px 2px #000;
+		
+	}
+
+
+/* BACKGROUND CODING */
+html {
+    height:100%;
+  }
+  
+  body {
+    margin:0;
+
+  }
+  
+  .bg {
+    animation:slide 3s ease-in-out infinite alternate;
+    background-image: linear-gradient(-60deg, #6c3 50%, #09f 50%);
+    bottom:0;
+    left:-50%;
+    opacity:.5;
+    position:fixed;
+    right:-50%;
+    top:0;
+    z-index:-1;
+  }
+  
+  .bg2 {
+    animation-direction:alternate-reverse;
+    animation-duration:4s;
+  }
+  
+  .bg3 {
+    animation-duration:5s;
+  }
+  
+  .content {
+    background-color:rgba(255,255,255,.8);
+    border-radius:.25em;
+    box-shadow:0 0 .25em rgba(0,0,0,.25);
+    box-sizing:border-box;
+    left:50%;
+    padding:10vmin;
+    position:fixed;
+    text-align:center;
+    top:50%;
+    transform:translate(-50%, -50%);
+  }
+  
+  h1 {
+    font-family:monospace;
+    text-align: center;
+   border-bottom: 2PX double red;
+   font-size: 50PX;
+
+  }
+  
+  @keyframes slide {
+    0% {
+      transform:translateX(-25%);
+    }
+    100% {
+      transform:translateX(25%);
+    }
+  }
+
+
+    </style>
+</head>
+<body>
+
+    <div class="bg"></div>
+    <div class="bg bg2"></div>
+    <div class="bg bg3"></div>
+
+<h1>STUDENTS RECORD</h1>
+
+
+    <div class="container">
+        1.
+        <div class="box">Name</div>
+        <div class="box">Fathers name</div>
+        <div class="box">Mothers name</div>
+        <div class="box">Course</div>
+        <div class="box">Photo</div>
+        <div class="box">Gender</div>
+        <div class="box">Phone no</div>
+        <div class="box">Address</div>
+        <div class="box">Email</div>
+
+    </div>
+    <div class="container">
+        2.
+        <div class="box">Name</div>
+        <div class="box">Fathers name</div>
+        <div class="box">Mothers name</div>
+        <div class="box">Course</div>
+        <div class="box">Photo</div>
+        <div class="box">Gender</div>
+        <div class="box">Phone no</div>
+        <div class="box">Address</div>
+        <div class="box">Email</div>
+
+    </div>
+    <div class="container">
+        3.
+        <div class="box">Name</div>
+        <div class="box">Fathers name</div>
+        <div class="box">Mothers name</div>
+        <div class="box">Course</div>
+        <div class="box">Photo</div>
+        <div class="box">Gender</div>
+        <div class="box">Phone no</div>
+        <div class="box">Address</div>
+        <div class="box">Email</div>
+
+    </div>
+    <div class="container">
+        4.
+        <div class="box">Name</div>
+        <div class="box">Fathers name</div>
+        <div class="box">Mothers name</div>
+        <div class="box">Course</div>
+        <div class="box">Photo</div>
+        <div class="box">Gender</div>
+        <div class="box">Phone no</div>
+        <div class="box">Address</div>
+        <div class="box">Email</div>
+
+    </div>
+    <div class="container">
+        5.
+        <div class="box">Name</div>
+        <div class="box">Fathers name</div>
+        <div class="box">Mothers name</div>
+        <div class="box">Course</div>
+        <div class="box">Photo</div>
+        <div class="box">Gender</div>
+        <div class="box">Phone no</div>
+        <div class="box">Address</div>
+        <div class="box">Email</div>
+
+    </div>
+
+</body>
+</html>
